@@ -375,3 +375,63 @@ flex: 1;
     font-weight: 500;
     color:var(--text-color);
 }
+
+.tab-description{
+    margin-top: 60px;
+    border:1px solid #ccc;
+    width: 100%;
+    padding: 10px;
+    background-color: white ;
+  }
+  .tab-description .tabs{
+    justify-content: flex-start;
+  
+  }
+  .tab-description .tab-item{
+    padding: 15px 30px;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    background: #ddd;
+    color: #242424;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  .tab-description .tab-item.active,.tab-description .tab-item:hover{
+    color:#fff;
+    background-color: #ff6a28;
+  }
+  .tab-description .tab-pane{
+    padding: 0 20px;
+  }
+
+  .product-review__heading{
+    font-size: 2.2rem;
+    line-height: 3.6rem;
+    margin: 0 0 12px 0;
+    font-weight: 400;
+  }
+  .product-reviews__summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+  
+  }
+  .product-reviews__summary span:last-child{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all .3s ease-in 0s;
+  }
+  .product-reviews__summary span:last-child:hover{
+    color:#ff6a28
+  }
+  .product-reviews__content-form{
+    display: none;
+    height: 0;
+    transition: all .3s ease-in 0s;
+  }
+  .product-reviews__content-form.open{
+    display: block;
+    height: 100%;
+    
+  }
