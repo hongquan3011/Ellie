@@ -222,3 +222,38 @@ img{
 .desc{
     margin-bottom:10px;
 }
+
+.product-reviews{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+.product-reviews__summary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.4rem;
+  
+  }
+  .product-reviews__summary span:last-child{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all .3s ease-in 0s;
+  }
+  .product-reviews__summary span:last-child:hover{
+    color:#ff6a28
+  }
+  .product-reviews__content-form{
+    display: none;
+    height: 0;
+    transition: all .3s ease-in 0s;
+  }
+  .product-reviews__content-form.open{
+    display: block;
+    height: 100%;
+    
+  }
+
+  .form-group .form-label{
+    display: flex;
+  }
