@@ -1,14 +1,14 @@
 # Ellie
-Giai đoạn demo (Chưa thực sự hoàn thiện về FE)
+Giai đoạn demo
 
 ## About(Giới thiệu)
 ```bash
-Đã hoàn thành xong còn một vài chi tiết nhỏ
+Đã hoàn thành xong còn một vài chi tiết nhỏ chưa responsive
 ```
 
 ## Service(Dịch vụ)
 ```bash
-Đã hoàn thành xong còn một vài chi tiết nhỏ
+Đã hoàn thành xong còn một vài chi tiết nhỏ chưa responsive
 ```
 
 ## Liên hệ
