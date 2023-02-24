@@ -179,7 +179,7 @@ body {
     }
     .header {
         z-index: 5;
-        position: relative;
+       
         left: 0;
         padding-top: 0;
         width: 100%;
