@@ -187,7 +187,7 @@ max-width: 522px;
     
 }
 .service-item__heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2.4rem;
     text-align: center;
     text-transform: uppercase;
@@ -262,11 +262,8 @@ text-transform: uppercase;
     color:var(--primary-color);
     margin:46px 0 64px;
 }
-.service-slide__content-descriptions{
-    font-size: 1rem;
-    line-height: 2.2em;
-    margin-bottom: 34px;
-}
+
+
 .service-slide__img{
     display: grid;
     gap: 0.5rem;
@@ -371,7 +368,7 @@ flex: 1;
 .list-item__link a{
     display: block;
     padding: 10px 0 ;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 500;
     color:var(--text-color);
 }
