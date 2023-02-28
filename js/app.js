@@ -29,12 +29,13 @@ const tabActive = $$(".tab-item.active");
 
 tabs.forEach((tab, index) => {
   const pane = panes[index];
-  tab.onclick = function () {
+  tab.onclick = function() {
     $$(".tab-item.active").classList.remove("active");
     $$(".tab-pane.active").classList.remove("active");
     this.classList.add("active");
     pane.classList.add("active");
   };
+
 });
 
 // gallery thumb 
