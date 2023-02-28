@@ -4,45 +4,24 @@ const menuBottomBar = $$("#bottom-bar");
 const menuMobileBtn = $$(".bottom-bar__mobile");
 const menuMobile = $$('.bottom-bar__list')
 
+var acc = document.getElementsByClassName("faq__accordion-button");
+var i;
 
-//open menu
-$(document).ready(function(){
-  $('#blog-post').owlCarousel({
-    center: true,
-  loop:true,
-  autoplay: true,
-  autoplaySpeed:3000,
-  autoplayHoverPause:true,
-  dots:false,
-  items:3,
-  nav:false,
-  margin:30,
-  })
-  $('.owl-carousel ').owlCarousel({
-      center: true,
-  loop:true,
-autoplay: true,
-autoplaySpeed:3000,
-autoplayHoverPause:true,
-  dots:false,
-  items:1,
-  nav:false,
-})
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+     
+    } else {
+  
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+// slide 
 
-
-var owl = $('.owl-carousel');
-owl.owlCarousel();
-// Go to the next item
-$('.owl-next').click(function() {
-    owl.trigger('next.owl.carousel');
-})
-// Go to the previous item
-$('.owl-prev').click(function() {
-    // With optional speed parameter
-    // Parameters has to be in square bracket '[]'
-    owl.trigger('prev.owl.carousel', [300]);
-})
-});
 //tab product
 const tabs = $$$(".tab-item");
 const panes = $$$(".tab-pane");
@@ -50,13 +29,12 @@ const tabActive = $$(".tab-item.active");
 
 tabs.forEach((tab, index) => {
   const pane = panes[index];
-  tab.onclick = function() {
+  tab.onclick = function () {
     $$(".tab-item.active").classList.remove("active");
     $$(".tab-pane.active").classList.remove("active");
     this.classList.add("active");
     pane.classList.add("active");
   };
-
 });
 
 // gallery thumb 
@@ -98,3 +76,4 @@ const toggleProductReview = $$(".product-reviews__content-form")
 toggleComment.onclick =() =>{
   toggleProductReview.classList.toggle("open")
 }
+

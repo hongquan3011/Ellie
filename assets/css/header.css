@@ -29,6 +29,7 @@ body {
     top: 0;
     width: 100%;
    
+   
 }
 .menu-toggle {
     display: none;
@@ -155,10 +156,6 @@ body {
 }
 
 .navbar-brand {
-    padding: 0px;
-}
-
-.navbar-brand>img {
     height: 40px;
     width: auto;
     z-index: 10;
@@ -170,6 +167,26 @@ body {
     background-color: white;
 }
 
+.navbar-brand>img {
+    height: 40px;
+    width: auto;
+    padding: 0 25px;
+    /*BAR HOW MUCH IN RIGHT*/
+    background-color: white;
+}
+
+.navbar-brand>p{
+    margin: 0 auto;
+   text-align: center;
+   
+    background: rgb(218,219,12);
+    background: linear-gradient(99deg, rgba(218,219,12,1) 44%, rgba(94,71,10,0.9389005602240896) 100%);
+
+    -webkit-background-clip: text;
+
+	-webkit-text-fill-color: transparent;
+    
+}
 
 
 
@@ -179,7 +196,7 @@ body {
     }
     .header {
         z-index: 5;
-       
+        position: relative;
         left: 0;
         padding-top: 0;
         width: 100%;
