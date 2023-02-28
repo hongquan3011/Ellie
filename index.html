@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="/assets/css/base.css">
   <link rel="stylesheet" href="/assets/css/grid.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-
+  <link rel="stylesheet" href="/assets/css/reponsive.css">
+  <link rel="stylesheet" href="/assets/css/header.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
@@ -24,43 +25,46 @@
     <!-- header  -->
 
 
-    <div class="grid">
-      <header class="header">
-        <div class="top-bar">
-          <div class="top-bar__content">
-            <p>Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*</p>
-          </div>
-          <div class="top-bar__social">
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-facebook" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-twitter" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"></a>
-          </div>
-        </div>
-        <div class="header-main">
-          <img src="/assets/image/favicon.ico" alt="" class="header-main__logo">
-          <nav class="header-main__navbar">
-            <ul class="header-main__navbar-list">
-              <li class="header-main__navbar-list__item active"><a href="#">Trang chủ</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Giới thiệu</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Dịch vụ</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Tin tức</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Liên hệ</a></li>
-            </ul>
-          </nav>
-          <div class="header-main__search">
-            <form action="" method="get">
-              <input type="text" class="header-main__search-input" name="header-main__search-input" id=""
-                placeholder="Tìm kiếm " minlength="1" required>
-              <button class="header-main__search-button"> <i class="bi bi-search" aria-hidden="true"></i></button
-                class="header-main">
-
-            </form>
-          </div>
-        </div>
-
-      </header>
+      <div class="grid">
+      
+          <div class="header_section">
+           
+              
+                <div>
+                   
+                        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+                        <div class="mobile-bar">
+                            <label for="menu-toggle" class="menu-icon">
+                                <span></span>
+                            </label>
+                        </div>
+                        
+                        <header class="header">
+                            <nav>
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                    <li><a href="#">Product</a></li>
+                                    <li>
+                                        <a href="#">
+                                            <p>Login</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+    
+                        </header>
+                        
+                        <a class="navbar-brand logo" href="#" style="padding:0px;">
+                          <img src="/assets/image/z4128653610963_d23034e245041d3b12e31393a6219061.jpg" alt="" class="header-main__logo">
+                        </a>
+                       
+                </div>
+            
+         </div>
+</div>
+    
       <!-- end header  -->
       <div class="container-fluid">
 
@@ -73,7 +77,7 @@
                     <img class="banner__img" src="/assets/image/banner.png" alt="">
                     <div class="banner__content">
                       <h2 class="banner__content-subtext">Ellie Nguyen</h2>
-                      <h1 class="banner__content-heading">Trang điểm đẹp</h1>
+                      <h2 class="banner__content-heading">Trang điểm đẹp</h2>
                       <p class="banner__content-descriptions">nếu bạn muốn trang điểm đẹp, hãy đến với chúng tôi, chuyên
                         trang điểm đám cưới, trang điểm sự kiện, trang điểm kỉ yêu, ...</p>
                       <button class="btn btn-primary">Trang điểm</button>
@@ -85,7 +89,7 @@
                     <img class="banner__img" src="/assets/image/banner.png" alt="">
                     <div class="banner__content">
                       <h2 class="banner__content-subtext">Ellie Nguyen</h2>
-                      <h1 class="banner__content-heading">Trang điểm đẹp</h1>
+                      <h2 class="banner__content-heading">Trang điểm đẹp</h2>
                       <p class="banner__content-descriptions">nếu bạn muốn trang điểm đẹp, hãy đến với chúng tôi, chuyên
                         trang điểm đám cưới, trang điểm sự kiện, trang điểm kỉ yêu, ...</p>
                       <button class="btn btn-primary">Trang điểm</button>
@@ -97,7 +101,7 @@
                     <img class="banner__img" src="/assets/image/banner.png" alt="">
                     <div class="banner__content">
                       <h2 class="banner__content-subtext">Ellie Nguyen</h2>
-                      <h1 class="banner__content-heading">Trang điểm đẹp</h1>
+                      <h2 class="banner__content-heading">Trang điểm đẹp</h2>
                       <p class="banner__content-descriptions">nếu bạn muốn trang điểm đẹp, hãy đến với chúng tôi, chuyên
                         trang điểm đám cưới, trang điểm sự kiện, trang điểm kỉ yêu, ...</p>
                       <button class="btn btn-primary">Trang điểm</button>
@@ -112,38 +116,38 @@
 
         <div class="service grid wide">
           <div class="row">
-            <div class="col l-12">
+            <div class="col l-12 m-12 c-12">
               <h1 class="heading-title">TRANG ĐIỂM ĐẸP</h1>
               <p class="heading-content">Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all
                 classy products today!</p>
             </div>
             <div class="row">
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-1.png" alt="" class="service-item__img">
                   </div>
-                  <h1 class="service-item__heading">Trang điểm đẹp</h1>
+                  <h2 class="service-item__heading">Trang điểm đẹp</h2>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-2.png" alt="" class="service-item__img">
                   </div>
-                  <h1 class="service-item__heading">Trang điểm cô dâu</h1>
+                  <h2 class="service-item__heading">Trang điểm cô dâu</h2>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-3.png" alt="" class="service-item__img">
                   </div>
-                  <h1 class="service-item__heading">Trang điểm đám cưới</h1>
+                  <h2 class="service-item__heading">Trang điểm đám cưới</h2>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-4.png" alt="" class="service-item__img">
                   </div>
-                  <h1 class="service-item__heading">Trang điểm nhẹ nhàng</h1>
+                  <h2 class="service-item__heading">Trang điểm nhẹ nhàng</h2>
                 </div>
               </div>
             </div>
@@ -156,9 +160,9 @@
                 <div class="owl-item">
 
                   <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 m-6 c-12">
                       <div class="service-slide__content">
-                        <h1 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h1>
+                        <h2 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h2>
                         <p class="service-slide__content-descriptions">The Good4Me range has been formulated based on
                           scientific & traditional evidence.
                           <br />
@@ -170,7 +174,7 @@
                         <button class="btn btn-primary outline">Trang điểm cô dâu </button>
                       </div>
                     </div>
-                    <div class="col l-6">
+                    <div class="col l-6 m-6 c-12">
                       <div class="service-slide__img">
                         <img class="service-slide__img-thumb grid-1" src="/assets/image/anh-6.png" alt="">
                         <img class="service-slide__img-thumb grid-2" src="/assets/image/anh-5.png" alt="">
@@ -187,9 +191,9 @@
                 <div class="owl-item">
 
                   <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 m-6 c-12">
                       <div class="service-slide__content">
-                        <h1 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h1>
+                        <h2 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h2>
                         <p class="service-slide__content-descriptions">The Good4Me range has been formulated based on
                           scientific & traditional evidence.
                           <br />
@@ -201,7 +205,7 @@
                         <button class="btn btn-primary outline">Trang điểm cô dâu </button>
                       </div>
                     </div>
-                    <div class="col l-6">
+                    <div class="col l-6 m-6 c-12">
                       <div class="service-slide__img">
                         <img class="service-slide__img-thumb grid-1" src="/assets/image/anh-6.png" alt="">
                         <img class="service-slide__img-thumb grid-2" src="/assets/image/anh-5.png" alt="">
@@ -218,9 +222,9 @@
                 <div class="owl-item">
 
                   <div class="row">
-                    <div class="col l-6">
+                    <div class="col l-6 m-6 c-12">
                       <div class="service-slide__content">
-                        <h1 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h1>
+                        <h2 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h2>
                         <p class="service-slide__content-descriptions">The Good4Me range has been formulated based on
                           scientific & traditional evidence.
                           <br />
@@ -232,7 +236,7 @@
                         <button class="btn btn-primary outline">Trang điểm cô dâu </button>
                       </div>
                     </div>
-                    <div class="col l-6">
+                    <div class="col l-6 m-6 c-12">
                       <div class="service-slide__img">
                         <img class="service-slide__img-thumb grid-1" src="/assets/image/anh-6.png" alt="">
                         <img class="service-slide__img-thumb grid-2" src="/assets/image/anh-5.png" alt="">
@@ -253,17 +257,17 @@
         </div>
         <div class="service grid wide">
           <div class="row">
-            <div class="col l-12">
-              <h1 class="heading-title">Dịch vụ makeup</h1>
+            <div class="col l-12 m-12 c-12">
+              <h2 class="heading-title">Dịch vụ makeup</h2>
               <p class="heading-content">Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all
                 classy products today!</p>
             </div>
             <div class="row">
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/image-17.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup sự kiện</h1>
+                  <h2 class="service-item__heading">Makeup sự kiện</h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
@@ -272,33 +276,33 @@
                   <span class="service-item__price-sale">On sale</span>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-18.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup sinh nhật</h1>
+                  <h2 class="service-item__heading">Makeup sinh nhật</h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
                   </div>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-19.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup chụp hình</h1>
+                  <h2 class="service-item__heading">Makeup chụp hình</h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
                   </div>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh20.png" alt="" class="service-item__img">
                   </div>
-                  <h1 class="service-item__heading">Makeup kỉ yếu</h1>
+                  <h2 class="service-item__heading">Makeup kỉ yếu</h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
@@ -308,7 +312,7 @@
 
             </div>
             <div class="row">
-              <div class="col l-12">
+              <div class="col l-12 m-12 c-12">
                 <button class="service-btn btn btn-primary outline">Trang điểm</button>
               </div>
             </div>
@@ -321,17 +325,17 @@
                 <div class="owl-stage">
                   <div class="owl-item">
                     <div class="row">
-                      <div class="col l-6">
+                      <div class="col l-6 m-7 c-12">
                         <div class="service-slide__content">
                           <h2 class="service-slide__content-subtext">REAL REVIEWS</h2>
-                          <h1 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h1>
+                          <h2 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h2>
                           <p class="service-slide__content-descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
                           </p>
                           </p>
                           <button class="btn btn-primary outline">Trang điểm cô dâu </button>
                         </div>
                       </div>
-                      <div class="col l-4">
+                      <div class="col l-4 m-5 c-12">
                         <div class="service-slide__img">
                           <img class="service-slide__img-thumb" src="/assets/image/anh-8.png" alt="">
                          
@@ -342,17 +346,17 @@
                   
                   <div class="owl-item">
                     <div class="row">
-                      <div class="col l-6">
+                      <div class="col l-6 m-7 c-12">
                         <div class="service-slide__content">
                           <h2 class="service-slide__content-subtext">REAL REVIEWS</h2>
-                          <h1 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h1>
+                          <h2 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h2>
                           <p class="service-slide__content-descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
                           </p>
                           </p>
                           <button class="btn btn-primary outline">Trang điểm cô dâu </button>
                         </div>
                       </div>
-                      <div class="col l-4">
+                      <div class="col l-4 m-5 c-12">
                         <div class="service-slide__img">
                           <img class="service-slide__img-thumb" src="/assets/image/anh-8.png" alt="">
                          
@@ -362,17 +366,17 @@
                   </div>
                   <div class="owl-item">
                     <div class="row">
-                      <div class="col l-6">
+                      <div class="col l-6 m-7 c-12">
                         <div class="service-slide__content">
                           <h2 class="service-slide__content-subtext">REAL REVIEWS</h2>
-                          <h1 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h1>
+                          <h2 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h2>
                           <p class="service-slide__content-descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
                           </p>
                           </p>
                           <button class="btn btn-primary outline">Trang điểm cô dâu </button>
                         </div>
                       </div>
-                      <div class="col l-4">
+                      <div class="col l-4 m-5 c-12">
                         <div class="service-slide__img">
                           <img class="service-slide__img-thumb" src="/assets/image/anh-8.png" alt="">
                          
@@ -388,15 +392,15 @@
         </div>
         <div class="service grid wide">
           <div class="row">
-            <div class="col l-12">
-              <h1 class="heading-title">Đào tạo trang điểm Đà nẵng</h1>
+            <div class="col l-12 m-12 c-12">
+              <h2 class="heading-title">Đào tạo trang điểm Đà nẵng</h2>
             </div>
             <div class="row">
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup kỉ yếu </h1>
+                  <h2 class="service-item__heading">Makeup kỉ yếu </h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
@@ -405,33 +409,33 @@
                   <span class="service-item__price-sale">On sale</span>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-22.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup cá nhân</h1>
+                  <h2 class="service-item__heading">Makeup cá nhân</h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
                   </div>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-23.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup sự kiện, sinh nhật </h1>
+                  <h2 class="service-item__heading">Makeup sự kiện, sinh nhật </h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
                   </div>
                 </div>
               </div>
-              <div class="col l-3">
+              <div class="col l-3 m-6 c-6">
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-24.png" alt=""
                       class="service-item__img"></div>
-                  <h1 class="service-item__heading">Makeup đám cưới</h1>
+                  <h2 class="service-item__heading">Makeup đám cưới</h2>
                   <div class="service-item__price">
                     <h3 class="service-item__price-new">$ 39</h3>
                     <h3 class="service-item__price-old">$ 49</h3>
@@ -441,7 +445,7 @@
 
             </div>
             <div class="row">
-              <div class="col l-12">
+              <div class="col l-12 m-12 c-12">
                 <button class="service-btn btn btn-primary outline">Học Trang điểm</button>
               </div>
             </div>
@@ -451,12 +455,12 @@
         <div class="service">
           <div class="grid wide">
             <div class="row">
-              <div class="col l-12">
-                <h1 class="heading-title">BÍ QUYẾT TRANG ĐIỂM</h1>
+              <div class="col l-12 m-12 c-12">
+                <h2 class="heading-title">BÍ QUYẾT TRANG ĐIỂM</h2>
               </div>
             </div>
             <div class="row">
-              <div class="col l-12">
+              <div class="col l-12 m-12 c-12">
                 <div id="blog-post" class="owl-carousel owl-theme owl-loaded">
                   <div class="owl-stage-outer">
                     <div class="owl-stage">
@@ -464,45 +468,38 @@
                         <div class="service-item">
                           <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
                               class="service-item__img"></div>
-                          <h1 class="service-item__heading">Makeup kỉ yếu </h1>
-                          <div class="service-item__price">
-                            <h3 class="service-item__price-new">$ 39</h3>
-                            <h3 class="service-item__price-old">$ 49</h3>
-        
-                          </div>
-                          <span class="service-item__price-sale">On sale</span>
+                              <span class="date">August 26, 2020</span>
+                          <h2 class="service-item__heading">Blog post 1</h2>
+                            <p class="service-item__descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,</p>
+                          <button class="btn btn-primary read-more">Read more </button>
+                        </div>
+                      </div><div class="owl-item">
+                        <div class="service-item">
+                          <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
+                              class="service-item__img"></div>
+                              <span class="date">August 26, 2020</span>
+                          <h2 class="service-item__heading">Blog post 1</h2>
+                            <p class="service-item__descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,</p>
+                          <button class="btn btn-primary read-more">Read more </button>
+                        </div>
+                      </div><div class="owl-item">
+                        <div class="service-item">
+                          <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
+                              class="service-item__img"></div>
+                              <span class="date">August 26, 2020</span>
+                          <h2 class="service-item__heading">Blog post 1</h2>
+                            <p class="service-item__descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,</p>
+                          <button class="btn btn-primary read-more">Read more </button>
                         </div>
                       </div>
                       
-                      <div class="owl-item">
-                        <div class="service-item">
-                          <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
-                              class="service-item__img"></div>
-                          <h1 class="service-item__heading">Makeup kỉ yếu </h1>
-                          <div class="service-item__price">
-                            <h3 class="service-item__price-new">$ 39</h3>
-                            <h3 class="service-item__price-old">$ 49</h3>
-        
-                          </div>
-                          <span class="service-item__price-sale">On sale</span>
-                        </div>
-                      </div>
+                     
                       <div class="owl-item">
                         <div class="service-item">
                           <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
                               class="service-item__img"></div>
                               <span class="date">August 26, 2020</span>
-                          <h1 class="service-item__heading">Blog post 1</h1>
-                            <p class="service-item__descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,</p>
-                          <button class="btn btn-primary">Read more </button>
-                        </div>
-                      </div>
-                      <div class="owl-item">
-                        <div class="service-item">
-                          <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
-                              class="service-item__img"></div>
-                              <span class="date">August 26, 2020</span>
-                          <h1 class="service-item__heading">Blog post 1</h1>
+                          <h2 class="service-item__heading">Blog post 1</h2>
                             <p class="service-item__descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere,</p>
                           <button class="btn btn-primary read-more">Read more </button>
                         </div>
@@ -519,23 +516,23 @@
 
         <div class="grid wide form-contact">
           <div class="row ">
-            <div class="col l-12">
-              <h1 class="form-heading">Để lại thông tin để được tư vấn</h1>
+            <div class="col l-12 m-12 c-12">
+              <h2 class="form-heading">Để lại thông tin để được tư vấn</h2>
               <p class="form-descriptions">Vui lòng điền thông tin dưới đây, chúng tôi sẽ liên hệ lại để tư vấn cho bạn </p>
-              <form action="" class="row ">
-                <div class="col l-6">
+              <form action="" class="row">
+                <div class="col l-6 m-6 c-12">
                   <input type="text" placeholder="Họ và tên">
                 </div>
-                <div class="col l-6">
+                <div class="col l-6 m-6 c-12">
                   <input type="text" placeholder="Số điện thoại">
                 </div>
-                <div class="col l-12">
+                <div class="col l-12 m-12 c-12">
                   <input type="text" placeholder="Email/Facebook nếu có ">
                 </div>
-                <div class="col l-12">
+                <div class="col l-12 m-12 c-12">
                   <input type="text" placeholder="Nội dung">
                 </div>
-                <div class="col l-12">
+                <div class="col l-12 m-12 c-12">
                   <button type="submit" class="btn btn-primary">Đăng ký</button>
                 </div>
               </form>
@@ -573,7 +570,7 @@
                 <li class="footer-list__item"><a href="#" class="footer-list__item-link">My Account</a></li>
               </ul>
             </div>
-            <div class="col l-4 m-6 c-12">
+            <div class="col l-4 m-6 c-12 mt-4">
               <h3 class="footer-heading">
                 Contact Us
               </h3>
@@ -585,7 +582,7 @@
               <li class="footer-list-icon"><a href="#"><i class="bi bi-youtube"></i></a></li>
              </ul>
             </div>
-            <div class="col l-4 m-6 c-12">
+            <div class="col l-4 m-6 c-12 mt-4">
               <h3 class="footer-heading">
                 Join Our Newsletter Now
               </h3>
@@ -602,6 +599,7 @@
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/owl-carousel.js"></script>
 </body>
 
 </html>

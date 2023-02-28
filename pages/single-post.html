@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/assets/css/base.css">
   <link rel="stylesheet" href="/assets/css/grid.css">
   <link rel="stylesheet" href="/assets/css/style.css">
-
+  <link rel="stylesheet" href="/assets/css/reponsive.css">
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
@@ -25,49 +25,42 @@
 
 
     <div class="grid">
-      <header class="header">
-        <div class="top-bar">
-          <div class="top-bar__content">
-            <p>Afterpay, Laybuy & Genoapay | Free Delivery New Zealand + Australia*</p>
-          </div>
-          <div class="top-bar__social">
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-facebook" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-instagram" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-twitter" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
-            <a href="#" class="top-bar__social-icon"></a>
-          </div>
-        </div>
-        <div class="header-main">
-          <img src="/assets/image/favicon.ico" alt="" class="header-main__logo">
-          <nav class="header-main__navbar">
-            <ul class="header-main__navbar-list">
-              <li class="header-main__navbar-list__item active"><a href="#">Trang chủ</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Giới thiệu</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Dịch vụ</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Tin tức</a></li>
-              <li class="header-main__navbar-list__item"><a href="#">Liên hệ</a></li>
-            </ul>
-          </nav>
-          <div class="header-main__search">
-            <form action="" method="get">
-              <input type="text" class="header-main__search-input" name="header-main__search-input" id=""
-                placeholder="Tìm kiếm " minlength="1" required>
-              <button class="header-main__search-button"> <i class="bi bi-search" aria-hidden="true"></i></button
-                class="header-main">
-
-            </form>
-          </div>
-        </div>
-
-      </header>
+      
       <!-- end header  -->
       <div class="container-fluid">
         <div class="grid wide blog">
           <div class="row">
-            <div class="col l-12">
+            <div class="col l-12 m-12 c-12 ">
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                      <div class="owl-stage">
+                        <div class="owl-item">
+                          <div class="banner">
+                            <img class="banner__img" src="/assets/image/banner.png" alt="">
+                            
+                          </div>
+                        </div>
+                        <div class="owl-item">
+                          <div class="banner">
+                            <img class="banner__img" src="/assets/image/banner.png" alt="">
+                            
+                          </div>
+                        </div>
+                        <div class="owl-item">
+                          <div class="banner">
+                            <img class="banner__img" src="/assets/image/banner.png" alt="">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+        
+                  </div>    
+            
+            </div>
+            <div class="col l-12 m-12 c-12 ">
                 <div class="single-post">
-                    <img src="/assets/image/anh-2.png" alt="" class="single-post__thumb">
+                   
                     <div class="single-post__wrap">
                         <div class="single-post__inner">
                             <div class="single-post__date">
@@ -76,7 +69,7 @@
                             </div>
                             <div class="single-post__info">
                                 <div class="single-post_header">
-                                    <h3>Contrary to popular belief, lorem ipsum is not text</h3>
+                                    <h1>Contrary to popular belief, lorem ipsum is not text</h1>
                                 </div>
                                 <div class="single-post_meta">
                                     <span>MooBoo Demo Admin </span>
@@ -287,6 +280,7 @@
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="/assets/js/app.js"></script>
+  <script src="/assets/js/owl-carousel.js"></script>
 </body>
 
 </html>

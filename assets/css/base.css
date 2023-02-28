@@ -25,9 +25,12 @@ html {
     font-family: 'Libre Franklin', sans-serif;
     box-sizing: border-box;
 }
-#container{
-    margin-top: 10px;
+.container,.container-fluid{
+    margin-top: 30px;
     margin-bottom: 80px;
+}
+.grid .row{
+  padding-bottom: 20px ;
 }
 button,input{
     outline: 0;
