@@ -32,7 +32,7 @@ $("#product__thumb-gallery").owlCarousel({
     responsive:{
         0:{
             items:1,
-            nav:true
+            nav:false
         },
         600:{
             items:2,
@@ -40,8 +40,8 @@ $("#product__thumb-gallery").owlCarousel({
         },
         1000:{
             items:3,
-            nav:true,
-            loop:false
+            nav:false,
+            loop:true
         }
     }
     
