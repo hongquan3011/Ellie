@@ -19,7 +19,7 @@ $("#product__thumb-gallery").owlCarousel({
   }
 })
     $('#blog-post').owlCarousel({
-      center: true,
+         center: true,
     loop:true,
     autoplay: true,
     autoplaySpeed:3000,

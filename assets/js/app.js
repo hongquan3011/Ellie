@@ -77,3 +77,4 @@ toggleComment.onclick =() =>{
   toggleProductReview.classList.toggle("open")
 }
 
+// mô tả product
