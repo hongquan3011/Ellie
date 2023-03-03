@@ -1,14 +1,14 @@
 # Ellie
 Giai đoạn demo
 
-## About(Giới thiệu)
+## Blog(Tin tức)
 ```bash
-Đã hoàn thành xong còn một vài chi tiết nhỏ chưa responsive
+Đã hoàn thành xong
 ```
 
-## Service(Dịch vụ)
+## Blog-Details(Chi tiết tin tức)
 ```bash
-Đã hoàn thành xong còn một vài chi tiết nhỏ chưa responsive
+Đã hoàn thành xong còn một vài chi tiết nhỏ
 ```
 
 ## Liên hệ
