@@ -12,6 +12,10 @@
   <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/css/reponsive.css">
   <link rel="stylesheet" href="/assets/css/header.css">
+  <link rel="stylesheet" href="/assets/css/animationtext.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
   <link
     href="https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
@@ -44,7 +48,7 @@
                                 <ul>
                                     <li><a href="index.html">Home</a></li>
                                     <li><a href="pages/about.html">About</a></li>
-                                    <li><a href="pages/contact.html">Contact</a></li>
+                                    <li><a href="#contact" >Contact</a></li>
                                     <li><a href="pages/blog.html">Blog</a></li>
                                     <li>
                                         <a href="pages/service.html">
@@ -76,7 +80,7 @@
               <div class="owl-stage">
                 <div class="owl-item">
                   <div class="banner">
-                    <img class="banner__img" src="/assets/image/banner.png" alt="">
+                    <img class="banner__img" src="/assets/image/banner.png" alt="" loading="lazy">  
                     <div class="banner__content">
                       <h2 class="banner__content-subtext">Ellie Nguyen</h2>
                       <h2 class="banner__content-heading">Trang điểm đẹp</h2>
@@ -119,7 +123,7 @@
         <div class="service grid wide">
           <div class="row">
             <div class="col l-12 m-12 c-12">
-              <h1 class="heading-title">TRANG ĐIỂM ĐẸP</h1>
+              <h1 class="heading-title" data-aos="flip-right" >TRANG ĐIỂM ĐẸP</h1>
               <p class="heading-content">Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all
                 classy products today!</p>
             </div>
@@ -135,7 +139,7 @@
                 <div class="service-item">
                   <div class="service-item__hover"> <img src="/assets/image/anh-2.png" alt="" class="service-item__img">
                   </div>
-                  <h2 class="service-item__heading">Trang điểm cô dâu</h2>
+                  <h2 class="service-item__heading" >Trang điểm cô dâu</h2>
                 </div>
               </div>
               <div class="col l-3 m-6 c-6">
@@ -164,7 +168,7 @@
                   <div class="row">
                     <div class="col l-6 m-6 c-12">
                       <div class="service-slide__content">
-                        <h2 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h2>
+                        <h2 class="service-slide__content-heading" id="service">Chuyên trang điểm cô dâu</h2>
                         <p class="service-slide__content-descriptions">The Good4Me range has been formulated based on
                           scientific & traditional evidence.
                           <br />
@@ -179,9 +183,9 @@
                     
                     <div class="col l-6 m-6 c-12">
                       <div class="service-slide__img">
-                        <img class="service-slide__img-thumb grid-1" src="/assets/image/anh-6.png" alt="">
-                        <img class="service-slide__img-thumb grid-2" src="/assets/image/anh-5.png" alt="">
-                        <img class="service-slide__img-thumb grid-3" src="/assets/image/anh-7.png" alt="">
+                        <img class="service-slide__img-thumb grid-1" src="/assets/image/anh-6.png" alt="" data-aos="fade-down" data-aos-duration="1000">
+                        <img class="service-slide__img-thumb grid-2" src="/assets/image/anh-5.png" alt="" data-aos="fade-up-right" data-aos-duration="1000">
+                        <img class="service-slide__img-thumb grid-3" src="/assets/image/anh-7.png" alt="" data-aos="fade-left" data-aos-duration="1000">
 
                       </div>
                     </div>
@@ -193,15 +197,15 @@
                 </div>
                 <div class="owl-item">
 
-                  <div class="row">
+                  <div class="row" >
                     <div class="col l-6 m-6 c-12">
-                      <div class="service-slide__content">
+                      <div class="service-slide__content" data-aos="fade-up-left">
                         <h2 class="service-slide__content-heading">Chuyên trang điểm cô dâu</h2>
                         <p class="service-slide__content-descriptions">The Good4Me range has been formulated based on
                           scientific & traditional evidence.
                           <br />
                           Our vitamins are here and ready to boost your mood, immunity and overall well-being!
-                          </br>
+                          <br/>
                           Made in New Zealand from local and imported ingredients.
                         </p>
                         </p>
@@ -232,7 +236,7 @@
                           scientific & traditional evidence.
                           <br />
                           Our vitamins are here and ready to boost your mood, immunity and overall well-being!
-                          </br>
+                          <br>
                           Made in New Zealand from local and imported ingredients.
                         </p>
                         </p>
@@ -261,7 +265,7 @@
         <div class="service grid wide">
           <div class="row">
             <div class="col l-12 m-12 c-12">
-              <h2 class="heading-title">Dịch vụ makeup</h2>
+              <h2 class="heading-title" data-aos="flip-right" data-aos-duration="1000">Dịch vụ makeup</h2>
               <p class="heading-content">Pick your beauty products today. 50% OFF on the most popular GOOD4ME. Order all
                 classy products today!</p>
             </div>
@@ -364,7 +368,7 @@
                       <div class="col l-6 m-7 c-12">
                         <div class="service-slide__content">
                           <h2 class="service-slide__content-subtext">REAL REVIEWS</h2>
-                          <h2 class="service-slide__content-heading text-primary">Đào tạo trang điểm</h2>
+                          <h2 class="service-slide__content-heading text-primary" id="learn" >Đào tạo trang điểm</h2>
                           <p class="service-slide__content-descriptions">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
                           </p>
                           </p>
@@ -408,7 +412,9 @@
         <div class="service grid wide">
           <div class="row">
             <div class="col l-12 m-12 c-12">
-              <h2 class="heading-title">Đào tạo trang điểm Đà nẵng</h2>
+              <h2 class="heading-title" data-aos="flip-left"
+             
+              data-aos-duration="1000">Đào tạo trang điểm Đà nẵng</h2>
             </div>
             <div class="row">
               <div class="col l-3 m-6 c-6">
@@ -471,7 +477,8 @@
           <div class="grid wide">
             <div class="row">
               <div class="col l-12 m-12 c-12">
-                <h2 class="heading-title">BÍ QUYẾT TRANG ĐIỂM</h2>
+                <h2 class="heading-title focus-in-contract-bck" data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom" id="blog">BÍ QUYẾT TRANG ĐIỂM</h2>
               </div>
             </div>
             <div class="row">
@@ -509,7 +516,7 @@
                         <a href="pages/single-post.html">
                   
                           <div class="service-item">
-                            <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt=""
+                            <div class="service-item__hover"> <img src="/assets/image/anh-21.png" alt="" loading="lazy"
                                 class="service-item__img"></div>
                                 <span class="date">August 26, 2020</span>
                             <h2 class="service-item__heading">Blog post 1</h2>
@@ -543,7 +550,7 @@
         <div class="grid wide form-contact">
           <div class="row ">
             <div class="col l-12 m-12 c-12">
-              <h2 class="form-heading">Để lại thông tin để được tư vấn</h2>
+              <h2 class="form-heading" id="contact">Để lại thông tin để được tư vấn</h2>
               <p class="form-descriptions">Vui lòng điền thông tin dưới đây, chúng tôi sẽ liên hệ lại để tư vấn cho bạn </p>
               <form action="" class="row">
                 <div class="col l-6 m-6 c-12">
@@ -570,35 +577,9 @@
       <footer class="footer">
         <div class="grid wide">
           <div class="row">
-            <div class="col l-2 m-6 c-6">
-              <h3 class="footer-heading">
-                Information
-              </h3>
-              <ul class="footer-list">
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">About Us</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Delivery Information</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Privacy Policy</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Terms & Conditions</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Contact Us</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Returns</a></li>
-              </ul>
-            </div>
-            <div class="col l-2 m-6 c-6">
-              <h3 class="footer-heading">
-                Extra
-              </h3>
-              <ul class="footer-list">
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Brands</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Gift Certificates</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Affiliate</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Specials</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">Site Map</a></li>
-                <li class="footer-list__item"><a href="#" class="footer-list__item-link">My Account</a></li>
-              </ul>
-            </div>
             <div class="col l-4 m-6 c-12 mt-4">
               <h3 class="footer-heading">
-                Contact Us
+               Về chúng tôi
               </h3>
               <p class="footer-text">Address: 6688 Princess Road, London, Greater London BAS 23JK, UK<br>Phone: (+012) 800 456 789 - 987<br>Email: Contact@plazathemes.com</p>
              <ul class="footer-list list-icon">
@@ -608,24 +589,39 @@
               <li class="footer-list-icon"><a href="#"><i class="bi bi-youtube"></i></a></li>
              </ul>
             </div>
-            <div class="col l-4 m-6 c-12 mt-4">
+            <div class="col l-4 m-6 c-6">
               <h3 class="footer-heading">
-                Join Our Newsletter Now
+                Liên kết 
               </h3>
-              <p class="footer-text">Exceptional quality. Ethical factories. Sign up to enjoy free U.S. shipping and returns on your first order.              </p>
-             <form class="footer-form" method="post">
-              <input class="footer-form__input" type="text" placeholder="Your mail address">
-              <input class="footer-form__button" type="submit" value="Subscribe">
-             </form>
+              <ul class="footer-list">
+                <li class="footer-list__item"><a href="#service" class="footer-list__item-link">Về chúng tôi</a></li>
+                
+                <li class="footer-list__item"><a href="#learn" class="footer-list__item-link">Khóa học</a></li>
+              
+                <li class="footer-list__item"><a href="#blog" class="footer-list__item-link">Bài viết</a></li>
+                <li class="footer-list__item"><a href="#contact" class="footer-list__item-link">Liên hệ</a></li>
+              </ul>
             </div>
+           
+            
+            <div class="col l-4 m-6 c-12 mt-4">
+              
+              <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fvinacen3dwallpanel&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=6222965647794396" width="340" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>  </div>
           </div>
       </footer>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="/node_modules/jquery/dist/jquery.js"></script>
   <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
   <script src="/assets/js/app.js"></script>
   <script src="/assets/js/owl-carousel.js"></script>
+  <script src="/assets/js/lazyloadingscoll.js"></script>
+ 
+
 </body>
 
 </html>
