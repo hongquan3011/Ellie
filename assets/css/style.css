@@ -5,8 +5,9 @@
 
 
 /* hero  */
-.container-fluid{
-    padding-top: 80px;
+.container, .container-fluid {
+  margin-top: 30px;
+  margin-bottom: 0px;
 }
 .banner{
     width: 100%;
@@ -49,6 +50,24 @@ max-width: 522px;
     transform: translate(-50%,-50%);
 }
 /* service */
+.service-about__img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+.service-about{
+padding: 20px ;
+}
+.service-about__heading{
+font-size: 2.8rem;
+color:var(--text-color);
+text-transform: uppercase;
+}
+.service-about_descriptions{
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color:var(--text-color)
+}
 .service{
     padding: 60px 0;
 }
