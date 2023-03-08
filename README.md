@@ -1,6 +1,11 @@
 # Ellie
 Giai đoạn demo
 
+## Customer(Khách hàng)
+```bash
+Đã hoàn thành xong chưa responsive 1 số nơi (Tải 3 files html/css/js)
+```
+
 ## Blog(Tin tức)
 ```bash
 Đã hoàn thành xong
