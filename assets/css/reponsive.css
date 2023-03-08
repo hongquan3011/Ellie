@@ -49,7 +49,15 @@
         :root{
            
         }
-        
+        .blog-height{
+            height:auto;
+        }
+        .container-fluid{
+            margin:  auto;
+        }
+        .category-fuild{
+            display: none;
+        }
         .hide-on-tablet{
             display: none;
         }
