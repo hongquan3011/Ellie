@@ -17,6 +17,9 @@
 object-fit: cover;
 position: relative;
 }
+.hero .banner__img{
+  height: 100vh;
+}
 .banner__content {
   position: absolute;
   left: 5%;
