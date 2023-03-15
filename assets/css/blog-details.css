@@ -16,10 +16,6 @@
     font-size: 1.6rem;
 }
 
-.container-fluid {
-    padding: 50px;
-    width: 70%;
-}
 .service .row {
     justify-content: center;
 }
@@ -224,13 +220,6 @@
 /* End Product single  */
 
 /*  Tin liên quan  */ 
-.blog-height{
-    height: 160px;
-}
-.blog-post{
-    height: 200px;
-}
-
 .blog-post__item {
     display: flex;
     width: 100%;
@@ -285,11 +274,8 @@
 
 
 /* Left Blog Details */
-.category-fuild {
-    padding: 50px;
-    width: 28%;
-    margin-top: 60px;
-    margin-bottom: 80px;
+.category-link {
+    padding-top: 20px;
 }
 
 .category-fuild__tables {
@@ -319,6 +305,7 @@
 .list-group-makeup,
 .list-group-makeup:hover {
     backface-visibility: hidden;
+    width: 100%;
     position: relative;
     transition: 0.5s color ease;
     font-size: 1.6rem;
@@ -334,6 +321,7 @@
 .list-group-course,
 .list-group-course:hover {
     backface-visibility: hidden;
+    width: 100%;
     position: relative;
     transition: 0.5s color ease;
     font-size: 1.6rem;
