@@ -1,16 +1,17 @@
-@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
-
-.app {
-    overflow: hidden;
+.banner__img{
+    object-fit: contain;
 }
-
 .contact,
 .blog,
 .single-post {
     padding: 30px 0;
-
 }
-
+.customer{
+    padding-top: 100px;
+}
+.comment{
+    border-top: 1px solid #ddd;
+}
 /* Right Blog Details */
 .tree p{
     font-size: 1.6rem;
@@ -65,7 +66,6 @@
 .single-post__inner {
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid #ccc;
 }
 
 .single-post__date {
