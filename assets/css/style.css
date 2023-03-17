@@ -6,7 +6,7 @@
 
 /* hero  */
 .container, .container-fluid {
-  margin-top: 30px;
+  margin-top: 100px;
   margin-bottom: 0px;
 }
 .banner{
@@ -78,6 +78,7 @@ text-transform: uppercase;
     justify-content: center;
 }
 .heading-title{
+  margin-top: 20px;
     position: relative;
     font-weight: 500;
     font-size: 3.6rem;
